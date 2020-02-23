@@ -50,7 +50,7 @@ const getActivity = (items) => {
             return (   
                 <li className="r-h-ul-li">
                     <i className={item.class}></i>
-                    {item.name}
+                    <span>{item.name}</span>
                 </li>
         )})
     )
@@ -62,7 +62,7 @@ const getBottomRightHead = (items) => {
             return (
                 <li className="r-h-l-li">
                     <i className={item.class} style={{color: item.color}}></i>
-                    {item.name}
+                    <span>{item.name}</span>
                 </li>
             )
         })

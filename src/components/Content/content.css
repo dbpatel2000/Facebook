@@ -306,6 +306,9 @@
 
 /************ Right Content ************/
 
+.RightContent {
+    width: 100%;
+}
 .r-h-ul {
     display: flex;
     align-items: center;
@@ -361,6 +364,7 @@
     align-items: center;
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
 .r-h-l-li {
@@ -407,8 +411,19 @@
         grid-template-columns: 100%;
     }
 
-    .c-grid-left {
+    .c-grid-left, .RightContent {
+        width: 100%;
         margin-right: 0px;
+    }
+
+    .r-h-l-ul {
+        width: 100%;
+    }
+
+    .r-h-l-li {
+        padding: 5px 7px;
+        font-size: 14px;
+        border: 7px;
     }
 
 }
@@ -417,6 +432,14 @@
 @media screen and (max-width:500px){
     .c-n-ul-li {
         padding: 5px;
+    }
+
+    .r-h-l-li > span,.r-h-ul-li >span  {
+        display: none !important;
+    }
+
+    .nav-text {
+        font-size: 13px;
     }
 }
 

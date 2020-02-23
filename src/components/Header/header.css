@@ -1,5 +1,6 @@
 .Header {
     display: flex;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     background-color: #3474ff;

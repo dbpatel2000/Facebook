@@ -31,18 +31,18 @@ export default class Content extends Component {
                 <div className="c-nav">
                     <ul className="c-n-ul">
                         <li className="c-n-ul-li">
-                            Timeline
+                            <span className="nav-text">Timeline</span>
                             <i class="fas fa-sort-down" style={{color:"rgb(34, 0, 128)"}}></i>
                         </li>
-                        <li className="c-n-ul-li">About</li>
-                        <li className="c-n-ul-li">Friend</li>
-                        <li className="c-n-ul-li">Photo</li>
+                        <li className="c-n-ul-li"><span className="nav-text">About</span></li>
+                        <li className="c-n-ul-li"><span className="nav-text">Friend</span></li>
+                        <li className="c-n-ul-li"><span className="nav-text">Photo</span></li>
                         <li className="c-n-ul-li">
                             <i class="fas fa-lock" style={{color:"rgb(34, 0, 128)"}}></i>
-                            Archive
+                            <span className="nav-text">Archive</span>
                         </li>
                         <li className="c-n-ul-li">
-                            More
+                        <span className="nav-text">More</span>
                             <i class="fas fa-sort-down" style={{color:"rgb(34, 0, 128)"}}></i>
                         </li>
                     </ul>
